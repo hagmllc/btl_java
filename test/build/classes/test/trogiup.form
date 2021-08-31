@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="549" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="73" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="38" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="312" max="-2" attributes="0"/>
+              <EmptySpace pref="23" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tr&#x1ee3; gi&#xfa;p"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="o&#x9;H&#x1af;&#x1eda;NG D&#x1eaa;N S&#x1eec; D&#x1ee4;NG PH&#x1ea6;N M&#x1ec0;M QU&#x1ea2;N L&#xcd; TH&#x1af; VI&#x1ec6;N&#xa;I.&#x9;&#x110;&#x102;NG NH&#x1eac;P&#xa;1.&#x9;&#x110;&#x103;ng nh&#x1ead;p qu&#x1ea3;n tr&#x1ecb;&#xa; &#xa;-&#x9;T&#xe0;i kho&#x1ea3;n m&#x1eb7;c &#x111;&#x1ecb;nh c&#x1ee7;a admin l&#xe0; admin|admin&#xa;-&#x9;Nh&#x1ead;p t&#xea;n &#x111;&#x103;ng nh&#x1ead;p v&#xe0; m&#x1ead;t kh&#x1ea9;u&#xa;-&#x9;Ch&#x1ecd;n ph&#x1ea7;n &#x110;&#x103;ng nh&#x1ead;p qu&#x1ea3;n tr&#x1ecb;&#xa;-&#x9;Sau khi &#x111;&#x103;ng &#x111;&#x103;ng nh&#x1ead;p s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c chuy&#x1ec3;n &#x111;&#x1ebf;n giao di&#x1ec7;n qu&#x1ea3;n l&#xed; ng&#x1b0;&#x1edd;i d&#xf9;ng, t&#x1ea1;i &#x111;&#xe2;y c&#xf3; th&#x1ec3; th&#xea;m, c&#x1ead;p nh&#x1ead;t v&#xe0; xo&#xe1; ng&#x1b0;&#x1edd;i d&#xf9;ng&#xa; &#xa;-&#x9;&#x110;&#x1ec3; k&#x1ebf;t th&#xfa;c ch&#x1ecd;n tho&#xe1;t, h&#x1ec7; th&#x1ed1;ng s&#x1ebd; chuy&#x1ec3;n b&#x1ea1;n tr&#x1edf; l&#x1ea1;i giao di&#x1ec7;n &#x111;&#x103;ng nh&#x1ead;p &#x111;&#x1ec3; c&#xf3; th&#x1ec3; truy c&#x1ead;p v&#x1edb;i t&#xe0;i kho&#x1ea3;n kh&#xe1;c&#xa;2.&#x9;&#x110;&#x103;ng nh&#x1ead;p ng&#x1b0;&#x1edd;i d&#xf9;ng&#xa;-&#x9;T&#x1b0;&#x1a1;ng t&#x1ef1; nh&#x1b0; &#x111;&#x103;ng nh&#x1ead;p qu&#x1ea3;n tr&#x1ecb;, m&#x1ed7;i ng&#x1b0;&#x1edd;i d&#xf9;ng s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c c&#x1ea5;p ph&#xe1;t t&#xea;n &#x111;&#x103;ng nh&#x1ead;p v&#xe0; m&#x1ead;t kh&#x1ea9;u v&#xe0; ch&#x1ecd;n n&#xfa;t &#x111;&#x103;ng nh&#x1ead;p b&#xec;nh th&#x1b0;&#x1edd;ng, khi &#x111;&#x103;ng nh&#x1ead;p th&#xe0;nh c&#xf4;ng giao di&#x1ec7;n s&#x1ebd; chuy&#x1ec3;n &#x111;&#x1ebf;n menu ch&#xed;nh &#x111;&#x1ec3; qu&#x1ea3;n l&#xed; t&#xe0;i li&#x1ec7;u&#xa;II.&#x9;Form menu ch&#xed;nh&#xa; &#xa;2.1.&#x9; C&#xe0;i &#x111;&#x1eb7;t h&#x1ec7; th&#x1ed1;ng&#xa;H&#x1ec7; th&#x1ed1;ng -&gt; &#x110;&#x1eb7;t tham s&#x1ed1; h&#x1ec7; th&#x1ed1;ng&#xa;2.2.&#x9; Nh&#x1ead;p s&#xe1;ch&#xa;Nh&#x1ead;p t&#xe0;i li&#x1ec7;u -&gt; nh&#x1ead;p s&#xe1;ch&#xa; &#xa;Nh&#x1ead;p,s&#x1eed;a,xo&#xe1; s&#xe1;ch theo h&#x1b0;&#x1edb;ng d&#x1eab;n v&#xe0; button tr&#xea;n m&#xe0;n h&#xec;nh&#xa;2.3.&#x9;Nh&#x1ead;p b&#xe1;o&#xa;Nh&#x1ead;p t&#xe0;i li&#x1ec7;u -&gt; nh&#x1ead;p b&#xe1;o&#xa;2.4.&#x9;Nh&#x1ead;p t&#x1ea1;p ch&#xed;&#xa;Nh&#x1ead;p t&#xe0;i li&#x1ec7;u -&gt; nh&#x1ead;p t&#x1ea1;p ch&#xed;&#xa;2.5.&#x9;Hi&#x1ec3;n th&#x1ecb; t&#xe0;i li&#x1ec7;u&#xa;Menu hi&#x1ec3;n th&#x1ecb; d&#x1eef; li&#x1ec7;u -&gt; hi&#x1ec3;n th&#x1ecb; s&#xe1;ch, hi&#x1ec3;n th&#x1ecb; b&#xe1;o, hi&#x1ec3;n th&#x1ecb; t&#x1ea5;t c&#x1ea3;&#xa; &#xa;2.6.&#x9;S&#x1eaf;p x&#x1ebf;p v&#xe0; t&#xec;m ki&#x1ebf;m&#xa;Menu s&#x1eaf;p x&#x1ebf;p v&#xe0; t&#xec;m ki&#x1ebf;m -&gt; s&#x1eaf;p x&#x1ebf;p, t&#xec;m ki&#x1ebf;m&#xa; &#xa;Nh&#x1ead;p n&#x1ed9;i dung t&#xec;m ki&#x1ebf;m v&#xe0; ch&#x1ecd;n button ph&#xf9; h&#x1ee3;p&#xa;2.7.&#x9;In &#x1ea5;n&#xa;T&#x1ea1;i &#x111;&#xe2;y c&#xf3; th&#x1ec3; ch&#x1ecd;n ch&#x1ee9;c n&#x103;ng in ra m&#xe1;y in ho&#x1eb7;c in ra file PDF &#x111;&#x1ec3; d&#x1ec5; d&#xe0;ng qu&#x1ea3;n l&#xed;.&#xa;2.8.&#x9;Tr&#x1ee3; gi&#xfa;p&#xa;-&#x9;Tr&#x1ee3; gi&#xfa;p v&#x1ec1; ph&#x1ea7;n m&#x1ec1;m&#xa;-&#x9;Th&#xf4;ng tin nh&#xe0; ph&#xe1;t tri&#x1ec3;n&#xa;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="jTextArea1AncestorAdded"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x110;&#xf3;ng"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
